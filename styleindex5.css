@@ -1,0 +1,711 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F1FBFF;
+}
+.navbar{
+    margin-top: -15px;
+    margin-bottom: -10px;
+    margin-right: -2% !important;
+}
+.first{
+    margin-top: -2.9% !important;
+    margin-left: -0.8%!important;
+    margin-right:-0.9%  !important;
+}
+.navbar img{
+    margin-left: -20% !important;
+
+}
+.navbar-nav li{
+padding: 23px 14px ;
+}
+.navbar-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.3s;
+}
+.navbar-nav a:hover{
+    color:red;
+}
+.elementor-widget-container p{
+    color: black;
+}
+.h1{
+    font-size: 25px;
+}
+.elementor .elementor-background-video-container {
+    transition: opacity 1s;
+    pointer-events: none;
+}
+.elementor .elementor-background-video-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    direction: ltr;
+}
+
+.navbar-nav .fa-chevron-down{
+    color: black;
+    padding-left: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+.carousel-caption .fa-long-arrow-right {
+    color:white;
+    padding-left: 15px;
+}
+#second .fa-long-arrow-right {
+    color: #EE3324;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.third .fa-long-arrow-right{
+    color: black;
+    padding-bottom: 20px;
+    
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 200px !important;
+}
+.carousel-inner{
+    padding-bottom: -30% !important;
+    margin-bottom: -4%;
+}
+.carousel-inner .carousel-caption h1{
+    margin-top: -60%;
+    font-size: 2.3em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.carousel-inner .carousel-caption p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px !important;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.carousel-inner .carousel-item  video{
+    margin-top: -42.50%;
+    
+    
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4));
+}
+.secfirst{
+    margin-top: -7% !important;
+    margin-left: -5% ;
+    margin-right: -5% ;
+    
+}
+.carousel-caption .btn1{
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.carousel-caption .btn1{
+    background-color:black;
+}
+.btn{
+    color: white;
+   
+    
+}
+.combt{
+    margin-top: -7%;
+    
+}
+.carousel-item .btn2{
+    border-radius: 50px;
+    color: white;
+    background: none;
+    border-color: white !important;
+    
+    
+    
+}
+.btn2:hover{
+    color:white !important;
+    border-color: #F1FBFF !important;
+}
+.carousel-item .btn1{
+    color: white;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 25px;
+    
+    
+    
+    
+}
+.text-center{
+    color: #0B1320;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+ul.dropdown{
+    list-style: none;
+    background: white;   
+}
+
+ul.dropdown li a{
+    display: block;
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+ul.dropdown li{
+    display: block;
+}
+ul.dropdown{
+    width: 20%;
+    background: white;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    line-height: 5px;
+    text-align: center;
+   
+}
+ul li a:hover{
+    color:red;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+#second{
+    margin-top:-9%;
+    margin-bottom: -4%;
+}
+
+#second img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    
+   
+}
+.card{
+    height: 420px;
+    border: none;
+    bottom: auto;
+    margin-bottom: 25%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.card h3{
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #0B1320;
+    font-weight: 500;
+}
+.card p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.83);
+    font-weight: 500;
+}
+.card-footer{
+    text-align: right;
+}
+.cardcom1:hover{
+    transform: translateY(-15px);
+    transition: 1s;
+}
+
+
+.third{
+    background:rgb(251, 248, 249);
+    margin-bottom: -4%;
+    
+    
+   
+}
+.third .column{
+    
+    padding-top: 20%;
+    padding-left: 5%;
+    
+    
+   
+    
+}
+.third .column h3{
+    font-size: 32px;
+    color: rgb(11, 19, 32);
+    font-weight: 600;
+    
+}
+.third .column p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(11, 19, 32);
+}
+.third .card1{
+    height: 280px;
+    margin-top: 1%;
+    
+    
+}
+.third .card2{
+    height: 250px;
+    margin-top: 35%;
+}
+
+.row2{
+   
+   margin-left: 49%;
+   margin-top: 6%;
+}
+.row2 .card{
+    height: 300px;
+}
+.row2 .card3{
+    height: 300px;
+    margin-top: -140%;
+    width: 210%;
+    margin-left: 10%;
+}
+.row2 .card4{
+    margin-top: -90%;
+    height: 260px;
+    width: 210%;
+    margin-left: 130%;
+    
+    
+}
+.third .cardcom{
+    border-radius: 16px; 
+     
+    
+}
+.cardcom p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(11, 19, 32);
+}
+.cardcom h5{
+    font-size: 19px;
+    font-weight: 500;
+    
+}
+.third .fa-long-arrow-right:hover{
+    color: #EE3324;
+}
+.cardcom  h3:hover{
+    color: rgb(220, 35, 35);
+}
+
+.third .cardcom:hover, .cardcom h3 .fa-long-arrow-right:hover{
+    color: #EE3324 !important;
+}
+.third .cardcom{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .1);
+}
+.third .cardcom:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+}
+
+.Four{
+    background:white;
+    padding-bottom: 3%;
+    
+    
+}
+
+
+.Four h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    word-spacing: 0em;
+    color: #0B1320;
+    padding-top: 0.5%;
+    
+}
+.Four p{
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 0 8%;
+    color: rgb(59, 57, 57);
+}
+.images{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.images li{
+    display: inline;
+}
+.images img {
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 5px;
+   width: 110px !important;
+   height: 110px !important;
+}
+.five{
+    background:rgb(249, 232, 238);
+    
+    padding-top: 6%;
+    
+}
+.five1 h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #0B1320;
+}
+.carousel-inner .card{
+    height: 80%;
+    padding:  5%;
+    
+}
+.cars{
+    margin-bottom: -23%;
+}
+.carousel-inner p{
+    line-height: 22px;
+    color:rgba(0, 0, 0, 0.83);
+    font-size: 16px!important;
+    font-weight: 400 !important;
+}
+.carousel-inner h5{
+    font-size: 17px!important;
+    font-weight: 600!important;
+    overflow: hidden;
+}
+.fa {
+    color: goldenrod;
+}
+
+
+.cont{
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:whitesmoke;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2em;
+    background: black;
+    left:0;
+    right:0;
+    bottom:0;
+    margin-left: -40px;
+    
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    color: #c5c4c4;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .40s ease;
+    text-decoration: none;
+    line-height: 1.9;
+}
+.footer-content li a:hover{
+    color:orangered;
+}
+.icons a{
+    display: inline-block;
+    font-size: 30px;
+    color:orangered;
+    transition:all .40s ease;
+    width:40px;
+    height: 50px;
+}
+li{
+    display: inline;
+}
+@media (max-width:1690px) {
+    section{
+        padding: 50px 5% 40px;
+    }
+}
+.footer-content h3{
+    font-size: 18px!important;
+    margin: 0 0 5px!important;
+    font-weight: 500;
+    color: white!important;
+}
+   
+.cr{
+    background: black;
+    text-align: center;
+    color: #c5c4c4;
+    padding-bottom: 2%;
+    font-size: 15px;
+}
+@media(max-width:740px){
+    .footer-content{
+        width: 90%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/*.swiper {
+       
+        
+    
+    
+       
+}
+  
+.swiper {
+        
+}
+  
+.swiper-slide {
+        
+    
+    background: #fff;
+    
+        
+        
+}
+  
+     
+  
+.swiper-wrapper .card{
+          
+    
+    
+    
+          
+      
+}
+  
+.swiper-wrapper p, h6, h5{
+    
+    
+    color:rgba(0, 0, 0, 0.83);
+    font-size: 16px!important;
+    font-weight: 400 !important;
+}
+.swiper-wrapper h5{
+    font-size: 17px!important;
+    font-weight: 600!important;
+    overflow: hidden;
+}
+.fa {
+    color: goldenrod;
+}
+.whole{
+    
+}
+.mySwiper{
+    
+}*/
+.whole{
+    background:rgb(249, 232, 238);
+    
+    
+    
+    
+    
+}
+
+.swiper-wrapper .card{
+    width: 425%;
+    
+
+}
+
+.cars1{
+    margin-bottom: -8%;
+
+}
+.swiper-wrapper p{
+    line-height: 22px;
+    color: #0b1320;
+    font-size: 15.9px!important;
+    font-weight: 400 !important;
+}
+.swiper-wrapper h5{
+    color: #020102;
+
+    font-size: 16px!important;
+    font-weight: 600!important;
+    
+}
+.swiper-wrapper span{
+    padding-left: 50%;
+    font-size: 10px;
+
+}
+.card .s1{
+    padding-left: 42%;
+}
+.card .s2{
+    padding-left: 40%;
+}
+.card .s3{
+    padding-left: 50%;
+}
+.card .s4{
+    padding-left: 28%;
+}
+.card .s5{
+    padding-left: 16%;
+}
+.card .s6{
+    padding-left: 50%;
+}
+.card .s7{
+    padding-left: 51%;
+}
+.card .s8{
+    padding-left: 42%;
+}
+.card .s9{
+    padding-left:36%;
+}
+.swiper-wrapper span .fa-star{
+    color: green;
+    font-size: 11px;
+}
+.fa {
+    color: goldenrod;
+}
+.swiper-pagination{
+    
+    background:rgb(249, 232, 238);
+    padding-top: 5%;
+    
+
+    
+}
+@media(max-width:740px) {
+    .swiper-slide{
+        width: 90% !important;
+        height: 90% !important;
+        width: fit-content;
+        height: fit-content;
+        
+        
+        
+    }
+    
+}
+/*@media(max-width:740px){
+    .footer-content{
+        width: 90%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}*/
+
+.six{
+    background: rgb(245, 239, 240);
+    margin-bottom: -6%;
+}
+.six .row .card{
+    height: fit-content;
+    border-radius: 20px;
+}
+.six .row .com2{
+    margin-top: 8%;
+}
+.six .row .text{
+    margin-top: 23%;
+   padding-left: 7%;
+}
+.six .row .text h3{
+    font-weight: 600;
+}
+.six .row .text p{
+    font-size: 18px;
+    line-height: 28.8px;
+}
+.six .fa-long-arrow-right:hover{
+    color: #EE3324;
+}
+.six .row .card  h3:hover{
+    color: rgb(220, 35, 35);
+}
+
+.six .card{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .2);
+}
+.six .card:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .3);
+}
+.six .fa-long-arrow-right{
+    color: #000;
+}
+.six .row .card12{
+    margin-top: -14%;
+}
+.six .row .card22{
+    margin-top: -14%;
+}
+@media(max-width:740px) {
+    .com2{
+       padding-top: -50%;
+    }
+}

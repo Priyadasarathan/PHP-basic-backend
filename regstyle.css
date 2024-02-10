@@ -1,0 +1,36 @@
+
+.form-group a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+   
+
+}
+.card-body button{
+    margin: 15px;
+}
+.btn-secondary{
+    
+    align-items: center;
+   
+}
+.login{
+    
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    margin-left: -1.6%;
+    margin-right: -1.6%;
+}
+.error{
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.form-group.success input{
+    border-color: #0cc477;
+}
+.form-group.error input{
+    border-color: rgb(206, 67, 67);
+}
+

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form for Authorselvi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="regstyle.css">
+
+</head>
+
+<body>
+
+    <section class="container-fluid whole">
+        <div class="container mt-4 ">
+            <h1 class="text-center text-white ">Register Here!</h1>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!--form start-->
+                            <form action="Registration.php" id="form" method="POST">
+                                <div class="row">
+                                    <div class="pt-5 col-sm-6">
+                                        <div class="form-group">
+                                            <label for="name">First name</label>
+                                            <input type="text" name="username" class="form-control"
+                                                placeholder="Enter your First Name" id="name">
+                                            <div class="error"></div>
+                                        </div>
+                                    </div>
+                                    <div class=" pt-5 col-sm-6">
+                                        <div class="form-group">
+                                            <label for="name">Second name</label>
+                                            <input type="text" class="form-control" placeholder="Enter your Second Name"
+                                                id="name">
+                                            <div class="error"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group pt-5">
+                                            <label for="mobile">Mobile no.</label>
+                                            <input type="number" name="mobile" placeholder="+91 7867655213" id="mobile"
+                                                class="form-control" aria-describedby="phoneHelp">
+                                            <div class="error"></div>
+                                            <small id="phoneHelp" class="form-text text-muted">We won't share your
+                                                number with anyone else!</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group pt-5 email">
+                                            <label for="Email">Email ID</label>
+                                            <input type="email" name="email" placeholder="Enter your email ID"
+                                                id="email" class="form-control" aria-describedby="emailHelp">
+                                            <div class="error"></div>
+                                            <small id="emailHelp" class="form-text text-muted">We won't share your Email
+                                                ID with anyone else!</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group pt-5">
+                                            <label for="password">Password</label>
+                                            <input type="password" name="password" placeholder="Password" id="password"
+                                                class="form-control">
+                                            <div class="error"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group pt-5">
+                                            <label for="password">Confirm Password</label>
+                                            <input type="password" name="confirm_password"
+                                                placeholder="confirm password" id="confirm_password"
+                                                class="form-control">
+                                            <div class="error"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="para"></div>
+                                <div class="form-group form-check pt-5">
+                                    <input type="checkbox" class="form-check-input mr-2 " id="termsAgreement"
+                                        value="termsAgreement" />
+                                    <span style="padding-left:10px"><label for="termsAgreement"
+                                            class="form-check-label"> I agree to terms and conditions</label></span>
+
+                                </div>
+
+                                <div class="form-group text-center mt-3">
+                                    <button type="reset" class="btn btn-secondary text-center">Reset</button>
+
+
+                                    <button type="submit" class="btn btn-success"> <i
+                                            class="fa fa-external-link mr-2"></i><span
+                                            style="padding-left:10px;">Submit</button></span>
+                                </div>
+                                <!-- <div class="popup" id="popup">
+                                    <h2>Thank You!</h2>
+                                    <p>your details has been successfully submitted.</p>
+                                    <button type="button" onclick="closePopup()">ok</button>
+                                </div> -->
+
+                                <!-- <div class="form-group text-center login">
+                                    <button type="submit" class="btn log btn-success"><a href="login.html">Login<span
+                                                style="padding-left: 10px;"><i class="fa fa-sign-in"
+                                                    aria-hidden="true"></i></button></span> </a><span
+                                        class="text-white">here! to visit our Authorselvi website.....</span>
+                                </div> -->
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group text-center login">
+                <button type="submit" class="btn log btn-success"><a href="login.html">Login<span
+                            style="padding-left: 10px;"><i class="fa fa-sign-in" aria-hidden="true"></i></button></span>
+                </a><span class="text-white">here! to visit our Authorselvi website.....</span>
+            </div>
+        </div>
+
+    </section>
+
+    <?php
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $email = $_POST['email'];
+    $mobile = $_POST['mobile'];
+    $con = mysqli_connect("localhost", "root", "root123", "register");
+    $sql = "INSERT INTO register_table(username, password, email, mobile) values('$username', '$password', '$email', '$mobile')";
+    $result5 = mysqli_query($con, $sql);
+    if ($result5) {
+        echo "<h1>User details added in database successfully</h1>";
+    } else {
+        echo "User details not added properly" . mysqli_error($con);
+    }
+    ?>
+
+    <!-- <?php
+    function submitform()
+    {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $email = $_POST['email'];
+        $mobile = $_POST['mobile'];
+
+        if (!empty($username) || !empty($password) || !empty($email) || !empty($mobile)) {
+            #code...
+            $host = "localhost";
+            $dbUsername = "root";
+            $dbPassword = "root123";
+            $dbname = "register";
+            //create connection
+            $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
+
+            if (mysqli_connect_error()) {
+                die('Connect Error(' . mysqli_connect_errno() . ')' . mysqli_connect_error());
+            } else {
+                $SELECT = "SELECT email From register_table Where email = ? Limit 1";
+                $INSERT = "INSERT Into register_table (username, password, email, mobile) values(?, ?, ?, ?)";
+
+                //prepare statement
+                $stmt = $conn->prepare($SELECT);
+                $stmt->bind_param("s", $email);
+                $stmt->execute();
+                $stmt->bind_result($email);
+                $stmt->store_result();
+                $rnum = $stmt->num_rows;
+
+                if ($rnum == 0) {
+                    $stmt->close();
+
+                    $stmt = $conn->prepare($INSERT);
+                    $stmt->bind_param("sssi", $username, $password, $email, $mobile);
+                    $stmt->execute();
+                    echo "<h4 class=text-white>new record inserted successfully</h4>";
+                } else {
+                    echo "<p>Someone already register using this email</p>";
+
+                }
+                $stmt->close();
+                $conn->close();
+            }
+        } else {
+            echo "All field are required";
+            die();
+        }
+    }
+    submitform()
+        // <button type="submit" class="btn btn-success"> <i
+        //         class="fa fa-external-link mr-2"></i><span
+        //         style="padding-left:10px;">Submit</button></span>
+        //                                 <!-- <?php
+        // if ($_GET) {
+        //     echo print_r($_GET);
+        // } else {
+        //     echo print_r($_POST);
+        // }
+        /*?>*/
+        ?> -->
+    <style>
+        .login {
+
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            margin-left: -1.6%;
+            margin-right: -1.6%;
+            margin-bottom: -2.5%;
+        }
+
+        .form-group .error {
+            color: rgb(242, 18, 18);
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        .form-group.success input {
+            border-color: #0cc477;
+        }
+
+        .form-group.error input {
+            border-color: rgb(206, 67, 67);
+        }
+
+        .popup {
+            width: 400px;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            border-radius: 6px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        .popup button {
+            width: 50%;
+            margin-top: 50px;
+            padding: 10px 0;
+            background-color: white;
+            color: black;
+            border: 0;
+            outline: none;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+    <script>
+        //selecting queries 
+        const form = document.querySelector('#form');
+        const name = document.querySelector('#name');
+        const email = document.querySelector('#email');
+        const password = document.querySelector('#password');
+        const confirm_password = document.querySelector('#confirm_password');
+        const date = new Date("2023-11-10");
+        form.addEventListener('submit', (e) => {
+
+            if (!validateInputs()) {
+                e.preventDefault();
+            }
+        })
+
+        function validateInputs() {
+            const nameVal = name.value.trim();
+            const emailVal = email.value.trim();
+            const passwordVal = password.value.trim();
+            const confirm_passwordVal = confirm_password.value.trim();
+            const validateEmail = (email) => {
+                return String(email)
+                    .toLowerCase()
+                    .match(
+                        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                    );
+            };
+            let success = true
+            if (nameVal === '') {
+                success = false;
+                setError(name, 'Username is required')
+            }
+            else {
+                setSuccess(username)
+            }
+
+            if (emailVal === '') {
+                success = false;
+                setError(email, 'Email is required')
+            }
+            else if (!validateEmail(emailVal)) {
+                success = false;
+                setError(email, 'please enter a valid email')
+            }
+            else {
+                setSuccess(email)
+            }
+            if (passwordVal === '') {
+                success = false;
+                setError(password, 'Password is required')
+            }
+            else if (passwordVal.length < 8) {
+                success = false;
+                setError(password, 'Password must be atleast 8 characters long')
+            }
+            else {
+                setSuccess(password)
+            }
+            if (confirm_passwordVal === '') {
+                success = false;
+                setError(confirm_password, 'Confirm password is required')
+            }
+            else if (confirm_passwordVal !== passwordVal) {
+                success = false;
+                setError(confirm_password, 'Password does not match')
+            }
+            else {
+                setSuccess(confirm_password)
+            }
+            return success;
+        }
+
+        //element-password, message-password is required
+        function setError(element, message) {
+            const formGroup = element.parentElement;
+            const errorElement = formGroup.querySelector('.error');
+
+            errorElement.innerText = message;
+            formGroup.classList.add('error')
+            formGroup.classList.remove('success')
+        }
+
+        function setSuccess(element, message) {
+            const formGroup = element.parentElement;
+            const errorElement = formGroup.querySelector('.error');
+
+            errorElement.innerText = '';
+            formGroup.classList.add('success')
+            formGroup.classList.remove('error')
+        }
+
+
+
+        let div = document.getElementById("popup"); {
+            div.style.display = 'none';
+            function openPopup() {
+                div.style.display = 'block';
+            }
+            function closePopup() {
+                div.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
